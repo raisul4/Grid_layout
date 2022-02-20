@@ -1,78 +1,89 @@
-.grid{
-    display: grid;
-    width: 1401px;
-    height: 1000px;
-    border: 1px solid steelblue;
-    grid-template-columns: repeat(4,450px);
-    grid-template-rows: repeat(4 ,250px);
-    grid-template-areas: 
+.grid {
+  display: grid;
+  width: 1400px;
+  height: 837px;
+  grid-template-columns: repeat(4, 350px);
+  grid-template-rows: repeat(4, 200px);
+  grid-template-areas:
     "item1 item2 item3 item4"
     "item5 item2 item3 item6"
     "item7 itemz item3 item10"
     "item11 item11 item3 item12";
-    margin: auto;
+  margin: auto;
 }
-.item{
-    border: 1px solid rgb(247, 243, 243);
-    /* padding: 80px; */
-    text-align: center;
+.item {
+  border: 1px solid rgb(247, 243, 243);
+  /* padding: 80px; */
+  text-align: center;
 }
-.grid .item1{
-    background-color: slateblue;
-    grid-area: item1;
+.grid .item1 {
+  background-color: slateblue;
+  grid-area: item1;
 }
-.grid .item2{
-    background-color: rgb(136, 205, 90);
-    grid-area: item2;
+.grid .item2 {
+  background-color: rgb(136, 205, 90);
+  grid-area: item2;
 }
-.grid .item3{
-    background-color: rgb(90, 205, 161);
-    grid-area: item3;
+.grid .item3 {
+  background-color: rgb(90, 205, 161);
+  grid-area: item3;
 }
-.grid .item4{
-    background-color: rgb(201, 90, 205);
-    grid-area: item4;
+.grid .item4 {
+  background-color: rgb(201, 90, 205);
+  grid-area: item4;
 }
-.grid .item5{
-    background-color: rgb(205, 155, 90);
-    grid-area: item5;
+.grid .item5 {
+  background-color: rgb(205, 155, 90);
+  grid-area: item5;
 }
-.grid .item6{
-    background-color: rgb(205, 90, 161);
-    grid-area: item6;
+.grid .item6 {
+  background-color: rgb(205, 90, 161);
+  grid-area: item6;
 }
-.grid .item7{
-    background-color: rgb(113, 205, 90);
-    grid-area: item7;
+.grid .item7 {
+  background-color: rgb(113, 205, 90);
+  grid-area: item7;
 }
-.grid .itemz{
-    background-color: rgb(205, 165, 90);
-    grid-area: itemz;
-    grid-template-areas: 
-    "item8 item9 item9";
-    display: flex;
+.grid .itemz {
+  background-color: rgb(205, 165, 90);
+  grid-area: itemz;
+  grid-template-areas: "item8 item9 item9";
+  display: flex;
 }
-.grid .item8{
-    background-color: yellow;
-    grid-area: item8;
-    width: 157px;
-    border: 1px solid white;
+.grid .item8 {
+  background-color: yellow;
+  grid-area: item8;
+  width: 157px;
+  border: 1px solid white;
 }
-.grid .item9{
-    background-color: rgb(108, 156, 175);
-    grid-area: item9;
-    width: 290px;
-    border: 1px solid white;
+.grid .item9 {
+  background-color: rgb(108, 156, 175);
+  grid-area: item9;
+  width: 290px;
+  border: 1px solid white;
 }
-.grid .item10{
-    background-color: rgb(197, 205, 90);
-    grid-area: item10;
+.grid .item10 {
+  background-color: rgb(197, 205, 90);
+  grid-area: item10;
 }
-.grid .item11{
-    background-color: rgb(44, 16, 231);
-    grid-area: item11;
+.grid .item11 {
+  background-color: rgb(44, 16, 231);
+  grid-area: item11;
 }
-.grid .item12{
-    background-color: rgb(142, 205, 90);
-    grid-area: item12;
+.grid .item12 {
+  background-color: rgb(142, 205, 90);
+  grid-area: item12;
+}
+.button{
+  margin-left: 75px;
+  /* margin-top: 10px; */
+
+}
+.button h2 a{
+     border: 1px solid steelblue;
+     padding: 20px 10px;
+     text-decoration: none;
+     color: darkblue;
+     background-color: antiquewhite;
+     border-radius: 10px;
 }
